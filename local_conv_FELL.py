@@ -1,8 +1,10 @@
+import math
+
 import torch
 import torch.nn as nn
-from linearFA import LinearFA
 import torch.nn.functional as F
-import math
+
+from linearFA import LinearFA
 from surrogate_gradient import ExponentialSurroGrad
 
 class LocalLossBlockConv(nn.Module):

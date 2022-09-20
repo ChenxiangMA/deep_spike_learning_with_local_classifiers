@@ -1,6 +1,8 @@
+import math
+
 import torch.nn as nn
 import torch
-import math
+
 
 class LinearFAFunction(torch.autograd.Function):
     '''

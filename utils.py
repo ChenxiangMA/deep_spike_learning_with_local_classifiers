@@ -1,9 +1,10 @@
 import logging
 import shutil
-import torch
 import os
-import numpy as np
 import random
+
+import torch
+import numpy as np
 import torch.nn.functional as F
 
 def setup_logging(log_file='log.txt'):

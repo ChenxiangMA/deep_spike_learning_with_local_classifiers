@@ -1,13 +1,16 @@
 import argparse
-import torch
-
-from bisect import bisect_right
+from datetime import datetime
 import os
 import logging
+
+import torch
+from bisect import bisect_right
+import pandas as pd
+
 from load_dataset import load_dataset
 from utils import setup_logging, save_checkpoint, to_one_hot, reproducible_config
-from datetime import datetime
-import pandas as pd
+
+
 
 
 def train(epoch, lr):

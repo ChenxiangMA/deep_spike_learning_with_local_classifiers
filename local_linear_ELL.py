@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torch
 import torch.nn.functional as F
+
 from linearFA import LinearFA
 from surrogate_gradient import ExponentialSurroGrad
 

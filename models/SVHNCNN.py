@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+
 from utils import average_pooling_through_time
 
 class SVHNCNN(nn.Module):
