@@ -16,7 +16,7 @@ This repository contains a PyTorch implementation for the paper [Deep Spike Lear
 conda env create -f=./env.yaml -p /your_env_path
 ```
 
-4. Train SNNs with local learning rules
+2. Train SNNs with local learning rules
 ```sh
 python main_train.py --dataset CIFAR10 --dim-in-decoder=1024 --epochs 400 --lr 1e-3 --lr-decay-fact 0.1 --lr-decay-milestones 400 --model CIFARCNN --print-stats --tau 1 --thresh 1 --time-window 10 --learning-rule BELL
 python main_train.py --dataset SVHN --dim-in-decoder 1024 --epochs 100 --lr 3e-3 --lr-decay-fact 0.2 --lr-decay-milestones 30 60 90 --model SVHNCNN --print-stats --tau 1 --thresh 1 --time-window 10 --learning-rule BELL
