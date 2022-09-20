@@ -3,7 +3,7 @@
 
 
 
-This repository contains a PyTorch implementation for the paper [Deep Spike Learning with Local Classifiers](https://ieeexplore.ieee.org/document/9837810), IEEE Transactions on Cybernatics, 2022. 
+This repository contains a PyTorch implementation for the paper [Deep Spike Learning with Local Classifiers](https://ieeexplore.ieee.org/document/9837810), IEEE Transactions on Cybernetics, 2022. 
 
 ### Dependencies
 - torch v1.0.1
