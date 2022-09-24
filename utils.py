@@ -53,7 +53,7 @@ def reproducible_config(seed=1234, is_cuda=False):
     random.seed(seed)
     if is_cuda:
         torch.backends.cudnn.enabled = True
-        torch.backends.cudnn.benchmark = True
+        torch.backends.cudnn.benchmark = False
         torch.backends.cudnn.deterministic = True
         # torch.cuda.manual_seed(args.seed)
         torch.cuda.manual_seed_all(seed)
